@@ -10,7 +10,7 @@ function App() {
           </div>
         </div>
         <ul className="d-flex">
-          <li className="mr-20 ml-5 d-flex align-center">
+          <li className="mr-2clea0 ml-5 d-flex align-center">
             <div className="d-flex align-center">
               <img width={18} height={18} src="/img/cart.svg" />
               <span className="ml-0 mr-0">1205 руб.</span>
@@ -31,9 +31,20 @@ function App() {
         </ul>
       </header>
       <div className="content p-40">
-        <h1 className="mb-40">All sneakers</h1>
+        <div className="mb-40 d-flex align-center justify-between">
+          <h1>Все кроссовки</h1>
+          <div className="search-block">
+            <img src="/img/search.svg" alt="Search" />
+            <input placeholder="Поиск ..." />
+          </div>
+        </div>
+
         <div className="d-flex">
           <div className="card">
+            <div className="favorite">
+              <img src="/img/heart-unliked.svg" alt="Unliked" />
+            </div>
+
             <img
               width={133}
               height={112}
