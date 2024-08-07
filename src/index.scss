@@ -36,35 +36,6 @@ header {
   }
 }
 
-.card {
-  border: 1px solid #f3f3f3;
-  padding: 20px;
-  width: 220px;
-  border-radius: 40px;
-  margin-right: 30px;
-  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
-
-  &:hover {
-    /* Rectangle 19 */
-    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.06);
-    transform: translateY(-5px);
-  }
-
-  .favorite {
-    position: absolute;
-    cursor: pointer;
-  }
-  span {
-    font-style: 13px;
-    opacity: 0.5;
-    text-transform: uppercase;
-  }
-
-  b {
-    font-style: 13px;
-  }
-}
-
 .button {
   /* Rectangle 22 */
   box-sizing: border-box;
@@ -76,15 +47,11 @@ header {
   cursor: pointer;
 }
 
-h5 {
-  font-weight: 400;
-  font-style: 13px;
-}
-
 .search-block {
   border: 1px solid #f3f3f3;
   border-radius: 10px;
   padding: 0 15px;
+
   input {
     border: 0;
     padding: 13px;
